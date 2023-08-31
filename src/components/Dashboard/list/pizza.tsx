@@ -8,7 +8,7 @@ import { url } from '@/utils/url';
 import useUser from '@/store/store';
 import { toast } from 'react-hot-toast';
 import { metadata } from '@/app/layout';
-interface pizzaProps {
+type pizzaProps = {
 	rows: {
 		available: boolean;
 		createdAt: string;

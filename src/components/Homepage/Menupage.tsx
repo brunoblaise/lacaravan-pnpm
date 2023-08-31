@@ -3,7 +3,7 @@ import Menulist from '../menu/Menulist';
 import { ColorFactory } from 'antd/es/color-picker/color';
 import Image from 'next/image';
 
-interface MenupageProps {}
+type MenupageProps = {}
 
 const Menupage: FC<MenupageProps> = ({}) => {
 	const lists = [

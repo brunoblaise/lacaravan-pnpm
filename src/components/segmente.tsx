@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { AppstoreOutlined, BarsOutlined } from '@ant-design/icons';
 import { Segmented } from 'antd';
 import Link from 'next/link';
-interface SegmenteProps {
+type SegmenteProps  = {
 	signin: string;
 	signout: string;
 }

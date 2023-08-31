@@ -10,7 +10,7 @@ import cookieCutter from 'cookie-cutter';
 //DONE: set token in cookie in nextjs server side
 //TODO: file middleware.ts -> root folder to check token (list to be allowed to access)
 
-interface User {
+type User  = {
 	email: string;
 	password: string;
 }

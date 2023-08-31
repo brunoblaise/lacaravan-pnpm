@@ -2,7 +2,7 @@
 
 import { FC } from 'react';
 import './header.css';
-interface headerProps {
+type headerProps = {
 	name: string | undefined;
 }
 

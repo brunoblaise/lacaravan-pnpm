@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { FC } from 'react';
 import style from './nav.module.css';
 import './nav.css';
-interface NavProps {}
+type NavProps = {}
 
 const Nav: FC<NavProps> = ({}) => {
 	return (

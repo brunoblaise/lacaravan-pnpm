@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { FC } from 'react';
 import Button from '../Buttton/Button';
 
-interface MenuProps {}
+type MenuProps = {}
 
 const Menup: FC<MenuProps> = ({}) => {
 	return (

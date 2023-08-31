@@ -1,7 +1,7 @@
 import Body from '@/components/Dashboard/body/body';
 import { FC } from 'react';
 
-interface pageProps {}
+type pageProps = {}
 
 const page: FC<pageProps> = ({}) => {
 	return (

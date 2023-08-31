@@ -5,11 +5,11 @@ import Segmente from '@/components/segmente';
 import { url } from '@/utils/url';
 import { toast } from 'react-hot-toast';
 import { useRouter } from 'next/navigation';
-interface User {
+type User = {
 	email: string;
 	password: string;
 	name: string;
-}
+};
 
 const tailLayout = {
 	wrapperCol: { offset: 8, span: 16 },

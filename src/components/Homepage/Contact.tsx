@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { FC } from 'react';
 
-interface ContactProps {}
+type ContactProps = {}
 
 const Contact: FC<ContactProps> = ({}) => {
 	return (

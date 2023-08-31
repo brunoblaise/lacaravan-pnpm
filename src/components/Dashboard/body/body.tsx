@@ -6,7 +6,7 @@ import Checkout from '../checkout/checkout';
 import Pizza from '../list/pizza';
 import useUser from '@/store/store';
 
-interface bodyProps {}
+type bodyProps = {}
 
 const Body: FC<bodyProps> = ({}) => {
 	const { data } = useUser();

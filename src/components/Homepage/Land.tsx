@@ -4,7 +4,7 @@ import Button from '../Buttton/Button';
 import Contact from './Contact';
 import Menup from './Menup';
 
-interface LandProps {}
+type LandProps = {}
 
 const Land: FC<LandProps> = ({}) => {
 	return (

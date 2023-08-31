@@ -8,7 +8,7 @@ import { url } from '@/utils/url';
 import { toast } from 'react-hot-toast';
 import cookieCutter, { set } from 'cookie-cutter';
 
-interface checkoutProps {
+type checkoutProps = {
 	data:
 		| {
 				createdAt: string;
@@ -22,7 +22,8 @@ interface checkoutProps {
 		| undefined;
 }
 
-interface Cart {
+
+type Cart  ={
 	userId: number | undefined;
 	pizzaId: number;
 	quantity: number;
